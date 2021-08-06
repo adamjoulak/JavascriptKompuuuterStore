@@ -1,0 +1,56 @@
+.h1Title {
+    background-color: black;
+    color: white;
+    padding-left: 10%;
+    font-family:"Simplifica";
+}
+
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #696e72;
+    background-color: rgb(232, 229, 222);
+}
+
+#joe {
+    
+}
+
+#header {
+    padding: 20px;
+    text-align: center;
+    background: rgb(3, 3, 3);
+    color: white;
+    font-size: 23px;
+}
+
+#bankContainer {
+    font-size: 23px;
+    text-align: left;
+    height: 175px;
+}
+
+#workContainer {
+    font-size: 23px;
+    text-align: left;
+    height: 175px;
+}
+
+#laptopsContainer {
+    font-size: 23px;
+    text-align: left;
+    height: 175px;
+}
+
+#buyLaptopContainer {
+    font-size: 23px;
+    text-align: center;
+}
+
+#btnBankContainer {
+    background-color: rgb(45, 197, 45);
+    border-radius: 4px;
+    border: none;
+}

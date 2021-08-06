@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+    <h1 class="h1Title">Kompuuter Store</h1>
+    <p>By Adam Joulak</p>
+
+
+  <link rel="stylesheet" href="style.css">
+
+
+<body>
+  <div>
+    <div>
+      <div class="joe">
+        <h4>Joe Banker</h4>
+        <div>
+          <div>Balance:</div>
+          <div id="accountBalance">0 $</div>
+          <div id="loanContainer">
+            <div>Loan:</div>
+            <div id="loan">0</div>
+          </div>
+        </div>
+        <div>
+          <button id="getCredit">Get a loan</button>
+        </div>
+      </div>
+    </div>
+    <div >
+      <div>
+        <h4>Work</h4>
+        <div>
+          <div>Pay:</div>
+          <div id="pay">0 $</div>
+        </div>
+        <div style="display: flex;">
+          <button id="bankPayBtn"">Bank</button>
+        <button id="workBtn">Work</button>
+          <button id="payCredit" style="display: none;">Pay loan</button>
+        </div>
+
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <h4>Laptops</h4>
+        <select name="pcDropdownEl" id="pcDropdownEl"></select>
+
+        <h4>Features</h4>
+        <div id="pcFeaturesEl"></div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>
+          <div>
+            <img id="image" src="https://noroff-komputer-store-api.herokuapp.com/assets/images/1.png"
+              height="250px">
+          </div>
+          <div>
+            <h4 id="pcName"></h4>
+            <div id="description"></div>
+
+          </div>
+          <div>
+            <div id="price"></div>
+            <button id="buy">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="kompuuterstore.js"></script>
+</body>
+
+</html>
